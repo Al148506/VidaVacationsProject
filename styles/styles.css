@@ -1,0 +1,359 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* Menú de navegación transparente */
+.nav-transparent {
+    background-color: transparent;
+    padding: 10px 20px;
+}
+.nav-transparent ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-transparent li {
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Menú de navegación blanco */
+.nav-transparent, .nav-white {
+    position: fixed;
+    top: 0; /* Fija la barra en la parte superior */
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    z-index: 1000; /* Garantiza que esté por encima de otros elementos */
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Color semitransparente para ver el contenido debajo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional para mayor visibilidad */
+    transition: background-color 0.3s ease; /* Efecto suave al cambiar el color */
+}
+
+.nav-transparent {
+    background-color: transparent; /* Para usar en la sección inicial */
+}
+
+.scrolled .nav-transparent{
+    background-color: white;
+}
+.scrolled ul {
+    display: flex;
+    justify-content: space-around;
+}
+.scrolled li {
+    color: #222222;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Banner principal */
+.banner {
+    
+    text-align: center;
+    padding: 60px 20px;
+    color: #FFFFFF;
+
+
+}
+#background-principal {
+    height: 1000px; 
+    background-image: url("/images/playa.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    position: relative; /* Añadir esto para que .banner se pueda centrar en relación a su contenedor */
+}
+
+#background-principal .banner {
+    display: flex; /* Activa Flexbox solo en .banner */
+    justify-content: center; /* Centra horizontalmente el contenido dentro de .banner */
+    align-items: center; /* Centra verticalmente el contenido dentro de .banner */
+    width: 100%; /* Asegúrate de que .banner ocupe todo el ancho */
+    position: absolute; /* Esto asegura que .banner se pueda colocar dentro de #background-principal */
+    top: 50%; /* Coloca .banner en el 50% de la altura de #background-principal */
+    left: 50%; /* Coloca .banner en el 50% del ancho de #background-principal */
+    transform: translate(-50%, -50%); /* Ajusta la posición para centrar completamente */
+}
+.banner h1 {
+    font-size: 50px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+/* Sección principal */
+.main-section {
+    background-color: #205375;
+    height: 1000px; 
+    background-image: url("/images/bienvenido.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+}
+.main-section h2 {
+    font-size: 1.8rem;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-family: 'Libre Bodoni', serif;
+}
+.main-section p {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.main-section .button {
+    display: inline-block;
+    background-color: #66AAA0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Lujo en el Mar */
+.luxury-at-sea {
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 40px 20px;
+}
+.luxury-at-sea h2 {
+    color: #205375;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 40px;
+}
+.resort-text{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: -30px;
+    background-image: url("/images/fondo-body.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.resort-text h1{
+    color: #205375;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resort-text p{
+    color: #848484;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Sección Destinos */
+.destinations {
+    background-color: #FFFFFF;
+    background-image: url("/images/fondo-body.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    margin-bottom: auto;
+}
+
+.destinations p {
+    color: #848484;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.destinations h1 {
+    color: #205375;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.destinations-gallery{
+   margin-top: 200px;
+   background-image: url("/images/fondo-body.jpg");
+   
+   
+} 
+
+/* Sección Hoteles Resort */
+.resort-hotels {
+    background-color: #FFFFFF;
+    background-image: url("/images/fondo-body.jpg");
+    color: #848484;
+    /*padding: 40px 20px;*/
+    margin-top: -20px;
+}
+.resort-hotels ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+/* Experiencias Extraordinarias */
+.extraordinary-experiences {
+    background-color: #205375;
+    background-image: url("/images/experiencias.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    width: 100vw; /* Asegura que el div ocupe todo el ancho de la pantalla */
+    height: 670px;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.extraordinary-experiences h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Libre Bodoni',S serif;
+    padding-top: 400px;
+}
+.extraordinary-experiences .button {
+    background-color: #66AAA0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resort-hotels {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye los elementos uniformemente */
+    align-items: center; /* Centra verticalmente los elementos */
+    flex-wrap: nowrap; /* Asegura que todos los elementos estén en una sola línea */
+    overflow-x: auto; /* Permite desplazamiento horizontal si los elementos no caben */
+    padding: 20px;
+
+}
+
+
+.resort-hotels ul {
+    display: flex; /* Activa flexbox para los elementos dentro de cada <ul> */
+    flex-direction: column; /* Ordena los elementos dentro de cada <ul> de forma vertical */
+    align-items: center; /* Centra los elementos dentro del <ul> */
+    margin: 0 10px; /* Espaciado entre los <ul> */
+}
+
+.resort-hotels ul li {
+    text-align: center; /* Centra el texto dentro de cada <li> */
+    margin: 10px 0; /* Espaciado entre el texto y la imagen */
+    color:#205375
+}
+
+.resort-hotels img {
+    max-width: 100%; /* Ajusta el tamaño de las imágenes al tamaño disponible */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    width: 150px; /* Define un ancho fijo para las imágenes */
+    border-radius: 10px; /* Redondea las esquinas de las imágenes */
+    transition: transform 500ms ease-in-out;
+}
+
+.resort-hotels img:hover {
+    transform: scale(1.2);
+  }
+.container{
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+.splide{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.splide__slide img {
+    width:400px; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    height: 300px; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+
+}
+.splide__slide {
+    display: flex; 
+    justify-content: center; /* Centra las imágenes dentro de cada slide */
+}
+.titanic {
+    height: 700px; 
+    background-image: url('/images/titanic.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Asegura que los elementos absolutos se posicionen dentro de este contenedor */
+   
+}
+.titanic .button {
+    background-color: #66AAA0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 240px; /* Espacio desde la parte inferior */
+    right: 150px;   /* Espacio desde la parte izquierda */
+}
+.bottom-image {
+    height: 700px; 
+    background-image: url('/images/oceano.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    position: relative; /* Añadir esto para que .banner se pueda centrar en relación a su contenedor */
+}
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+.footer-top {
+    background-color: #002038;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-top ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-top ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.footer-top ul li i {
+    margin-right: 10px;
+}
+.footer-bottom {
+    background-color: #35858B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+ .footer-bottom p{
+    color: #FFFFFF;
+    padding-top: 15px;
+} 
+
+
+a {
+    color: #FFFFFF;
+}
