@@ -4,99 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vida Vacations</title>
+
+    <!-- FontAwesome (CDN) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
-    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+
+    <!-- Estilos CSS (Asegura que esté en la carpeta correcta) -->
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- Splide (Usar CDN en lugar de archivos locales) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 
 <body>
-    <section id="background-principal">
-    <!-- Menú de navegación con fondo blanco -->
-  <header>
-    <nav class="nav-transparent">
-        <ul>
-            <li>¿POR QUÉ VIDA VACATIONS?</li>
-            <li>DESTINOS</li>
-            <li>HOTELES RESORT</li>
-            <li>VIDANTAWORLD'S ELEGANT</li>
-            <li>ENTRETENIMIENTO</li>
-            <li>CONTÁCTENOS</li>
-        </ul>
-    </nav>
-  </header>
+    <header>
+        <nav class="nav-transparent">
+            <ul>
+                <li>¿POR QUÉ VIDA VACATIONS?</li>
+                <li>DESTINOS</li>
+                <li>HOTELES RESORT</li>
+                <li>VIDANTAWORLD'S ELEGANT</li>
+                <li>ENTRETENIMIENTO</li>
+                <li>CONTÁCTENOS</li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Banner principal -->
     <section class="banner">
         <h1>EXPLORE EL LUJO <br> CON VIDA VACATIONS</h1>
     </section>
-    </section>
+
     <!-- Sección principal -->
     <section class="main-section">
         <h2>LA FORMA<br> PERSONALIZADA <br>DE VIAJAR</h2>
-        <p>Vida Vacations es un exclusivo club vacacional de lujo, que ofrece los<br> mejores y más hermosos destinos, experiencias inigualables, entretenimiento<br> de clase mundial, suntuosa relajación y el mejor servicio, todo creado para<br> satisfacer todas y cada una de sus expectativas.<br> ¡Bienvenido a Vida Vacations!</p>
+        <p>Vida Vacations es un exclusivo club vacacional de lujo...</p>
         <a href="#" class="button">CONOZCA MÁS</a>
     </section>
 
-    <!-- Sección Lujo en el Mar -->
-    <section class="luxury-at-sea">
-        <h2>LUJO EN EL MAR</h2>
-        
-    </section>
-    <section class="titanic">
-        <a href="#" class="button">CONOZCA MÁS</a>
-            <!-- Imagen de fondo -->
-    </section>
-    <!-- Sección Destinos -->
-    <section class="destinations">
-        <h1>DESTINOS</h1>
-        <p>Los clientes de Vida Vacations obtienen acceso a los destinos de Vidanta, una serie de extraordinarios resorts de playa que ofrecen lo mejor en gastronomía, entretenimiento, belleza natural y relajación.</p>
-    </section>
+    <!-- Sección Destinos con imágenes corregidas -->
     <section class="destinations-gallery">
-        <div class="splide" id="splide1" >
+        <div class="splide" id="splide1">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><img src="/images/riveramaya.png"></li>
-                    <li class="splide__slide"><img src="/images/loscabos.png"></li>
-                    <li class="splide__slide"><img src="/images/vallarta.png"></li>
+                    <li class="splide__slide"><img src="images/riveramaya.png"></li>
+                    <li class="splide__slide"><img src="images/loscabos.png"></li>
+                    <li class="splide__slide"><img src="images/vallarta.png"></li>
                 </ul>
             </div>
         </div>
     </section>
-    <!-- Sección Hoteles Resort -->
-    <section class="resort-text">
-    <h1>HOTELES RESORT</h1>
-    <p>Usted y su familia, merecen unas vacaciones que reflejen su estilo de vida.
-        Por ello, contamos con una selección de hoteles resort, cada uno con experiencias inolvidables.</p>
-    </section>
+
+    <!-- Sección Hoteles Resort con rutas corregidas -->
     <section class="resort-hotels">
-        
         <ul>
-            <li> <img src="/images/THE-ESTATES.jpg"></li>  
+            <li> <img src="images/THE-ESTATES.jpg"></li>  
             <li>THE ESTATES</li> 
         </ul>
         <ul>
-            <li><img src="/images/GRAND-LUXXE.jpg"></li>
+            <li><img src="images/GRAND-LUXXE.jpg"></li>
             <li>GRAND LUXXE</li>
-        </ul>
-        <ul>
-            <li><img src="/images/THE-GRAND-BLISS.jpg"></li>
-            <li>THE GRAND BLISS</li>
-        </ul>
-        <ul>
-            <li><img src="/images/THE-GRAND-MAYAN.jpg"></li>
-            <li>THE GRAND MAYAN</li>
-        </ul>
-        <ul>
-            <li><img src="/images/THE-BLISS.jpg"></li>
-            <li>THE BLISS</li>
-        </ul>
-        <ul>
-            <li><img src="/images/MAYAN-PALACE.jpg"></li>
-            <li>MAYAN PALACE</li>
-        </ul>
-        <ul>
-            <li><img src="/images/SEA-GARDEN.jpg"></li>
-            <li>SEA GARDEN</li>
         </ul>
     </section>
 
@@ -105,23 +71,18 @@
         <h2>EXPERIENCIAS EXTRAORDINARIAS</h2>
         <a href="#" class="button">CONOZCA MÁS</a>
     </section>
-    <!-- Carrusel de imagenes -->
-    
+
+    <!-- Carrusel con imágenes corregidas -->
     <section class="container">
         <div class="splide" id="splide2">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><img src="/images/golf.png"></li>
-                    <li class="splide__slide"><img src="/images/jungala.png"></li>
-                    <li class="splide__slide"><img src="/images/circo.png"></li>
+                    <li class="splide__slide"><img src="images/golf.png"></li>
+                    <li class="splide__slide"><img src="images/jungala.png"></li>
+                    <li class="splide__slide"><img src="images/circo.png"></li>
                 </ul>
             </div>
         </div>
-    </section>
-
-
-    <section class="bottom-image">
-    <!-- Imagen de fondo -->
     </section>
 
     <!-- Pie de página -->
@@ -134,32 +95,24 @@
                 <li>Experiencias Extraordinarias</li>
             </ul>
             <ul>
-                <li>Aviso De Privacidad</li>
-                <li>Prevención De Fraudes</li>
-                <li>Sorteos Y Promociones</li>
-            </ul>
-            <ul>
-                <img src="images\logo.png">
-            </ul>
-            <ul>
-                <li>México: 800-366-6600</li>
-                <li>E.U.A y Canadá: 1-800-292-9446</li>
-                <li>Resto del Mundo: +52 (322) 176-0660</li>
-           
-            </ul>
-            <ul>
-                
-                <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
-                <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                <img src="images/logo.png">
             </ul>
         </div>
         <div class="footer-bottom">
             <p>© 2024 Vida Vacations | Todos los derechos reservados.</p>
         </div>
     </footer>
-      <!-- Vincular archivos JavaScript -->
-      <script src="scripts/app.js"></script>
+
+    <!-- Vincular archivos JavaScript -->
+    <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <!-- Inicialización de Splide -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#splide1').mount();
+            new Splide('#splide2').mount();
+        });
+    </script>
 </body>
 </html>
