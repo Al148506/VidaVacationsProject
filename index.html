@@ -13,27 +13,31 @@
 
     <!-- Splide (Usar CDN en lugar de archivos locales) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    
 </head>
 
 <body>
-    <header>
-        <nav class="nav-transparent">
-            <ul>
-                <li>¿POR QUÉ VIDA VACATIONS?</li>
-                <li>DESTINOS</li>
-                <li>HOTELES RESORT</li>
-                <li>VIDANTAWORLD'S ELEGANT</li>
-                <li>ENTRETENIMIENTO</li>
-                <li>CONTÁCTENOS</li>
-            </ul>
-        </nav>
-    </header>
-
+    <section id="background-principal">
+    <!-- Menú de navegación con fondo blanco -->
+  <header>
+    <nav class="nav-transparent">
+        <ul>
+            <li>¿POR QUÉ VIDA VACATIONS?</li>
+            <li>DESTINOS</li>
+            <li>HOTELES RESORT</li>
+            <li>VIDANTAWORLD'S ELEGANT</li>
+            <li>ENTRETENIMIENTO</li>
+            <li>CONTÁCTENOS</li>
+        </ul>
+    </nav>
+  </header>
     <!-- Banner principal -->
     <section class="banner">
         <h1>EXPLORE EL LUJO <br> CON VIDA VACATIONS</h1>
     </section>
-
+    </section>
+    
     <!-- Sección principal -->
     <section class="main-section">
         <h2>LA FORMA<br> PERSONALIZADA <br>DE VIAJAR</h2>
@@ -121,15 +125,7 @@
     </footer>
 
     <!-- Vincular archivos JavaScript -->
-    <script src="./scripts/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-    <!-- Inicialización de Splide -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            new Splide('#splide1').mount();
-            new Splide('#splide2').mount();
-        });
-    </script>
+    <script src="./scripts/app.js"></script>
 </body>
 </html>
