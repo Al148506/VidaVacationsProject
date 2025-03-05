@@ -23,13 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
 // Agregar efecto de cambio en el header al hacer scroll
 document.addEventListener('scroll', function () {
     const nav = document.querySelector('header');
-    if (nav) {
-        if (window.scrollY > 100) { 
-            nav.classList.add("scrolled");
-            nav.classList.remove("nav-transparent");
+     if (window.scrollY > 100) { // Ajusta el valor según sea necesario
+            nav.className = "scrolled"
         } else {
-            nav.classList.remove("scrolled");
-            nav.classList.add("nav-transparent");
+            nav.className = ""
         }
-    }
 });
