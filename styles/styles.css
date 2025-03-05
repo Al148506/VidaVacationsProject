@@ -75,7 +75,7 @@ a {
 }
 #background-principal {
     height: 1000px; 
-    background-image: url("/images/playa.jpg");
+    background-image: url("../images/playa.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +102,7 @@ a {
 .main-section {
     background-color: #205375;
     height: 1000px; 
-    background-image: url("/images/bienvenido.jpg");
+    background-image: url("../images/bienvenido.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +146,7 @@ a {
     background-color: #FFFFFF;
     width: 100%;
     margin-top: -30px;
-    background-image: url("/images/fondo-body.jpg");
+    background-image: url("../images/fondo-body.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -165,7 +165,7 @@ a {
 /* Sección Destinos */
 .destinations {
     background-color: #FFFFFF;
-    background-image: url("/images/fondo-body.jpg");
+    background-image: url("../images/fondo-body.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     color: #FFFFFF;
@@ -185,7 +185,7 @@ a {
 }
 .destinations-gallery{
    margin-top: 200px;
-   background-image: url("/images/fondo-body.jpg");
+   background-image: url("../images/fondo-body.jpg");
    
    
 } 
@@ -193,7 +193,7 @@ a {
 /* Sección Hoteles Resort */
 .resort-hotels {
     background-color: #FFFFFF;
-    background-image: url("/images/fondo-body.jpg");
+    background-image: url("../images/fondo-body.jpg");
     color: #848484;
     /*padding: 40px 20px;*/
     margin-top: -20px;
@@ -207,7 +207,7 @@ a {
 /* Experiencias Extraordinarias */
 .extraordinary-experiences {
     background-color: #205375;
-    background-image: url("/images/experiencias.jpg");
+    background-image: url("../images/experiencias.jpg");
     background-repeat: no-repeat;
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
     background-position: center; /* Centra la imagen */
@@ -292,7 +292,7 @@ a {
 }
 .titanic {
     height: 700px; 
-    background-image: url('/images/titanic.png');
+    background-image: url('../images/titanic.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +311,7 @@ a {
 }
 .bottom-image {
     height: 700px; 
-    background-image: url('/images/oceano.png');
+    background-image: url('../images/oceano.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
