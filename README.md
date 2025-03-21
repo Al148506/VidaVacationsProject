@@ -13,4 +13,4 @@ Capturas de pantalla
 
 ![images/head.png](https://github.com/Al148506/VidaVacationsProject/blob/f09ee8fcccc2242dab18853143325039a1de844f/images/head.png)
 
-![Vista previa del sitio](https://tu-sitio.com/imagen.png)](https://github.com/Al148506/VidaVacationsProject/blob/1a67559ee8add45a92c74bcf17a26700077e1035/images/footer.png)
+![images/footer.png](https://github.com/Al148506/VidaVacationsProject/blob/1a67559ee8add45a92c74bcf17a26700077e1035/images/footer.png)
