@@ -1,15 +1,16 @@
-🌴 VidaVacations - Práctica de Desarrollo Web
+🌴 VidaVacations - Web Development Practice
 
-📌 Descripción
+📌 Description
 
-Este proyecto es una práctica de desarrollo web en la cual se ha creado una página para la empresa VidaVacations, dedicada a la venta de paquetes vacacionales. 
-El objetivo principal del proyecto es aplicar conocimientos en desarrollo web utilizando diversas tecnologías y buenas prácticas.
+This project is a web development practice in which a website was created for VidaVacations, a company dedicated to selling vacation packages.
 
-Tecnologías Utilizadas
+The main objective of the project is to apply web development knowledge using various technologies and best practices.
 
-HTML, CSS y JavaScript - Para la creación del frontend.
+Technologies Used
 
-Capturas de pantalla
+HTML, CSS, and JavaScript - For creating the frontend.
+
+Screenshots
 
 ![images/head.png](https://github.com/Al148506/VidaVacationsProject/blob/f09ee8fcccc2242dab18853143325039a1de844f/images/head.png)
 
