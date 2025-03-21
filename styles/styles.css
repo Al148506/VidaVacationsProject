@@ -18,49 +18,59 @@ a {
     text-decoration: none;
 }
 
-/* Menú de navegación transparente */
-.nav-transparent {
-    background-color: transparent;
-    padding: 10px 20px;
-}
-.nav-transparent ul {
-    display: flex;
-    justify-content: space-around;
-}
-.nav-transparent li {
-    color: #FFFFFF;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-/* Menú de navegación blanco */
+/* Menú de navegación - Base común para ambos estilos */
 .nav-transparent, .nav-white {
     position: fixed;
-    top: 0; /* Fija la barra en la parte superior */
+    top: 0;
     left: 0;
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    z-index: 1000; /* Garantiza que esté por encima de otros elementos */
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Color semitransparente para ver el contenido debajo */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra opcional para mayor visibilidad */
-    transition: background-color 0.3s ease; /* Efecto suave al cambiar el color */
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 15px; /* Padding uniforme */
+    transition: all 0.3s ease; /* Transición para todos los cambios */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Menú transparente */
 .nav-transparent {
-    background-color: transparent; /* Para usar en la sección inicial */
+    background-color: transparent;
 }
 
-.scrolled .nav-transparent{
-    background-color: white;
+/* Menú blanco */
+.nav-white {
+    background-color: rgba(255, 255, 255, 0.9);
 }
-.scrolled ul {
+
+/* Estilos para los elementos de navegación */
+.nav-transparent ul, .nav-white ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
-.scrolled li {
-    color: #222222;
-    font-size: 1rem;
+
+.nav-transparent li, .nav-white li {
+    font-size: 15px;
     cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 5px 15px;
+}
+
+/* Colores específicos para cada estilo */
+.nav-transparent li {
+    color: #FFFFFF;
+}
+
+.nav-white li {
+    color: #222222;
+}
+
+/* Clase para cuando se hace scroll */
+.scrolled .nav-transparent {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.scrolled .nav-transparent li {
+    color: #222222;
 }
 
 
